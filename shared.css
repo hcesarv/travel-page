@@ -1,0 +1,85 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  color: #383535;
+  overflow: overlay;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  color: transparent;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(241, 241, 114);
+  font-size: 50px;
+  padding: 10px;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: px;
+  color: rgb(241, 241, 114);
+  text-shadow: 1px 1px 2px black;
+}
+
+ul a:hover {
+  filter: brightness(1.8);
+}
+
+footer {
+  background: linear-gradient(180deg, #1a1a1a, black);
+  color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  height: 80px;
+  margin: 50px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #332f2f;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #332f2f;
+  border-radius: 6px;
+}
